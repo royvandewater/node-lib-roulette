@@ -1,0 +1,22 @@
+{
+  "name": "lib-roulette",
+  "version": "1.0.0",
+  "description": "Node library to simulate roulette games with a super simple API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/royvandewater/node-lib-roulette.git"
+  },
+  "keywords": [
+    "roulette"
+  ],
+  "author": "Roy van de Water",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/royvandewater/node-lib-roulette/issues"
+  },
+  "homepage": "https://github.com/royvandewater/node-lib-roulette"
+}
