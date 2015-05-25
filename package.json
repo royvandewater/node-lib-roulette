@@ -1,5 +1,5 @@
 {
-  "name": "lib-roulette",
+  "name": "simple-roulette",
   "version": "1.0.0",
   "description": "Node library to simulate roulette games with a super simple API",
   "main": "index.js",
