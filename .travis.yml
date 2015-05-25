@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+deploy:
+  provider: npm
+  email: roy.v.water@gmail.com
+  api_key:
+    secure: Aq/sLJMeloGt9UQ8BO5Y1q7+Qwb85H6TPNQpIiZrica00LqW1QMFrHQQDuLt82mkJ0vJSGHullJopz+1KNHyzsjS5Ns+nz2bvL5aM3/rGByWtsskt6CAtIDXXJP7SxLVXYDY4Z4GekVtgP7oiMBK//0K/Ot+Vs+WY6EInf9+bG2bBTkIJPnK5ejHLPCzZwVMKw85UcjSArSa6KfehQ3L0nYaKBrXUdIijb9lfHusG2itGzIVUpjDu59vfV2SzLNhpeQnRb39bw6oFGtK7z4eWcUEAIvsnVUSHU53A8LFxvrjdw3RGnhwbiUBB0HeQWyZf/LeGgAi3DK53oDp+7xpVrHXfMxB+Hb/MhYx/aQsYBDvDYdMjY+wvc7RXqevn5KkvmwJclnZ7Yxztg2FZCtdwmDSgNH8z8DXtI6gtGQSLzE6BlQ5PbSqBe+KC3yHRlE129S2TwJvkiJIXKWBSawekcakBRRKGuqXABqajl6vCBkTYhpdWeCQmSELug6o7ErqrTeHZMOIRE/88mZwNiHlEGY+UARkpsRGNsieGmWKcWrRJpt5CuwtxkvPH6/344HdHx8AM/5E4iV5egnWHzLSWyKHpdVsnv3GA8iNIXfnHjxto3wTLwOhHBUgBoLJWGIM/hZDwHLngYEbXU5hP0BsYhCQ7XQsF2W0KkLvN6fyzUE=
+  on:
+    tags: true
+    repo: royvandewater/node-simple-roulette
